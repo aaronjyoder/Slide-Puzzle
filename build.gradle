@@ -16,9 +16,13 @@ jar {
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
+    implementation 'com.formdev:flatlaf:1.0'
+    implementation 'com.github.Dansoftowner:jSystemThemeDetector:2.1'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 }
